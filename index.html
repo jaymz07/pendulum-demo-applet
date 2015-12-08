@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Pendulum-demo-applet : Simulation applet for the wavy pendulum demo often seen in internet videos. 3D java applet.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Pendulum-demo-applet</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jaymz07/pendulum-demo-applet">View on GitHub</a>
+
+          <h1 id="project_title">Pendulum-demo-applet</h1>
+          <h2 id="project_tagline">Simulation applet for the wavy pendulum demo often seen in internet videos. 3D java applet.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jaymz07/pendulum-demo-applet/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jaymz07/pendulum-demo-applet/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><img src="https://raw.githubusercontent.com/jaymz07/pendulum-demo-applet/master/Pendulums.png" alt="Screenshot"></p>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>Physics simulation of a multiple pendulum setup often seen in physics exhibitions, science fairs, and youtube videos.
+Pendulum lengths are chosen so that their periods of oscillations are integer multiples of some fundamental period, so that they seem to come back into phase after some integer number of these fundamental periods.</p>
+
+<h2>
+<a id="compile" class="anchor" href="#compile" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compile</h2>
+
+<p>To compile using the make system, simply run in the project directory:</p>
+
+<p>make</p>
+
+<p>If the make system is not installed, you can use the JDK directly:</p>
+
+<p>javac Pendulums.javac</p>
+
+<h2>
+<a id="launch" class="anchor" href="#launch" aria-hidden="true"><span class="octicon octicon-link"></span></a>Launch</h2>
+
+<p>The easiest way to launch the applet is to use a compatible browser and open the "RunPendulumDemo.html" file.
+Otherwise, if your system's PATH variable points to the JDK binaries, then you can simply launch using:</p>
+
+<p>appletviewer RunPendulumDemo.html</p>
+
+<h2>
+<a id="internals" class="anchor" href="#internals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Internals</h2>
+
+<p>This applet does not use any external libraries other than the built in 2D java graphics. The 2D java graphics has been manually adapted to produce 3D looking pictures. This is rather slow in terms of hardware acceleration since only 2D acceleration is used.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Pendulum-demo-applet maintained by <a href="https://github.com/jaymz07">jaymz07</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
